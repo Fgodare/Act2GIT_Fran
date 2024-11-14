@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Horario </title>
+</head>
+<body>
+    <div class="container">
+        <!-- Título del horario -->
+        <h1>Horario Escolar</h1>
+
+        <!-- Tabla del horario -->
+        <table>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td>08:15-09:15</td>
+                <td rowspan="2">Programación</td> <!-- rowspan permite que una celda de una tabla ocupe varias filas, combinando celdas verticalmente -->
+                <td>IPE I</td>
+                <td rowspan="2">ENDES</td>
+                <td rowspan="2">Programación</td>
+                <td rowspan="2">BADAT</td>
+            </tr>
+            <tr>
+                <td>09:15-10:15</td>
+                <td>ENDES</td>
+            </tr>
+            <tr>
+                <td>10:15-11:15</td>
+                <td>BADAT</td>
+                <td>LMSGI</td>
+                <td>BADAT</td>
+                <td>IPE I</td>
+                <td>SASP</td>
+            </tr>
+            <tr>
+                <td>11:15-11:45</td>
+                <td class="recreo" colspan="5">R E C R E O</td> <!-- colspan para ocupar varias columnas del horario -->
+            </tr>
+            <tr>
+                <td>11:45-12:45</td>
+                <td>BADAT</td>
+                <td rowspan="3">Programación</td>
+                <td>BADAT</td>
+                <td rowspan="2">LMSGI</td>
+                <td>IPE I</td>
+            </tr>
+            <tr>
+                <td>12:45-13:45</td>
+                <td rowspan="2">SIINF</td>
+                <td rowspan="2">SIINF</td>
+                <td>SIINF</td>
+            </tr>
+            <tr>
+                <td>13:45-14:45</td>
+                <td>DASPGS</td>
+                <td>Programación</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
