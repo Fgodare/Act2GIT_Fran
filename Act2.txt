@@ -1,6 +1,0 @@
-Esta página web tiene como función actual un inicio en el que muestra
-una foto del centro I.E.S Pablo Picasso, un horario en el que se muestra
-las asignaturas del primer año del alumnado de desarrollo de aplicaciones 
-multiplataforma y una descipción personal del alumnado que ha realizado
-esta página web
- 
